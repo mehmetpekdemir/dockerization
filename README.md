@@ -4,6 +4,17 @@
 
 -----------------------
 
+### Requirements
+
+For building and running the application you need:
+- [JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Maven](https://maven.apache.org)
+- [Docker](https://www.docker.com/)
+
+-----------------------
+
+### Build & Run
+
 mvn build ->
  - Main
 
@@ -16,12 +27,17 @@ mvn build ->
 
 - Run
 
+
+```
+  docker-compose -f docker-compose.yml up -d
+```
+
 -----------------------
 
-docker-compose -f docker-compose.yml up -d
+### Ports       
+ ```
+  application : http://localhost:8084/hello
+  
+  phpMyAdmin : http://localhost:8082/        
+```
 
------------------------
-
-ports : 
- - application : http://localhost:8084/hello
- - php my admin : http://localhost:8082/        
