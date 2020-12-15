@@ -10,6 +10,7 @@ For building and running the application you need:
 - [JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Maven](https://maven.apache.org)
 - [Docker](https://www.docker.com/)
+- [MySQL](https://www.mysql.com/)
 
 -----------------------
 
