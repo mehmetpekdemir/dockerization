@@ -16,22 +16,9 @@ For building and running the application you need:
 
 ### Build & Run
 
-mvn build ->
- - Main
+- mvn clean install
 
-   - Goals : clean compile install
-   - Profiles : pom.xml
-   - select Skip Tests
-
- - JRE
-    - Alternate JRE: jdk-11.0.7
-
-- Run
-
-
-```
-  docker-compose -f docker-compose.yml up -d
-```
+- docker-compose -f docker-compose.yml up -d
 
 -----------------------
 
